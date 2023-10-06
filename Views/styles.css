@@ -1,0 +1,150 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.836);
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+
+nav img{
+    width: 8rem;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: rgb(37, 37, 36);
+}
+
+
+#cardRecord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+#cardRecord img{
+    width: 10%;
+    height: 10%;
+    flex: 1;
+    padding: 0;
+}
+
+#showCard{
+    flex: 2;
+    width: 100%;
+    height: 760px;
+    background-color: black;
+    color: grey;
+}
+
+
+
+#icon{
+    font-size: 4rem;
+}
+
+th, td{
+    height: 3rem;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+table{
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: auto;
+}
+
+table .btn {
+    width: 100%;
+    border-radius:0%!important;
+    height: 3rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+.effect{
+    width: 200px;
+    height: 100px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.spell{
+    background-color: rgb(151, 228, 151) !important;
+}
+
+.trap{
+    background-color: rgb(143, 106, 177);
+}
+
+.Ritual{
+    background-color: rgb(165, 220, 241);
+}
+
+.Normal{
+    background-color: rgb(184, 184, 140);
+}
+
+.Efecto{
+    background-color: rgb(167, 86, 86);
+}
+
+.Fusion{
+    background-color: rgb(176, 141, 209);
+}
+
+.Synchro{
+    background-color: rgb(196, 196, 196);
+}
+
+.Xyz{
+    background-color: rgba(58, 57, 57, 0.514);
+}
+
+.Pendulo{
+    background-color: rgb(148, 199, 199);
+}
+
+.Link{
+    background-color: rgb(63, 129, 216);
+}
